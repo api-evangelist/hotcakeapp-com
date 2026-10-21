@@ -1,0 +1,28 @@
+generated: '2026-10-21'
+method: searched
+source: https://hotcake.app/pricing
+name: Hotcake pricing
+audience: developer-api
+pricing_basis: per-seat
+published: true
+type: Pricing
+plan_count: 2
+plans:
+  - name: 體驗方案
+    price_text: "每月 0 元起"
+    price: 0
+    currency: TWD
+    billing_period: month
+    included_quota: []
+    overage: []
+    limits: []
+    description: "0 建置費、0 開通費、0 空間費，單純只收每月方案的訂閱費用。"
+  - name: 商務方案
+    price_text: "NT$ 400 / 每位服務人員"
+    price: 400
+    currency: TWD
+    billing_period: month
+    included_quota: []
+    overage: []
+    limits: []
+    description: "90% 店家選擇升級，收費上限 NT$ 4,000 / 月，無限會員數 / 無限預約數。"

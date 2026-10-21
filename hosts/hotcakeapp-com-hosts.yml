@@ -1,0 +1,60 @@
+generated: '2026-10-21'
+method: derived
+source: the pre-flight dossier, apis.yml pointers, spec servers, well-known, vendors -- nothing fetched here
+generator: derive-hosts.py
+summary:
+  hosts: 4
+  own: 2
+  other_domain: 2
+  platform: 0
+  roles:
+  - api
+  - marketing
+  - website
+hosts:
+- host: api.hotcake.app
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: hotcake.app
+  role: api
+  relation: other-domain
+- host: api.hotcakeapp.com
+  found_by:
+  - contract-discovery
+  types: []
+  serves: []
+  registrable_domain: hotcakeapp.com
+  role: api
+  relation: own
+- host: hotcake.app
+  found_by:
+  - pointer
+  - probed
+  - site-links
+  - contract-discovery
+  - well-known
+  types:
+  - PrivacyPolicy
+  - Pricing
+  serves: []
+  registrable_domain: hotcake.app
+  role: marketing
+  relation: other-domain
+- host: hotcakeapp.com
+  found_by:
+  - pointer
+  - probed
+  - contract-discovery
+  - well-known
+  - vendor-detect
+  types:
+  - Website
+  serves:
+  - cdn
+  - hosting
+  vendor: cloudfront
+  registrable_domain: hotcakeapp.com
+  role: website
+  relation: own

@@ -1,0 +1,22 @@
+generated: '2026-10-21'
+method: none
+source:
+- https://zapier.com/apps/hotcakeapp-com/integrations
+- https://zapier.com/apps/hotcakeapp/integrations
+- https://zapier.com/apps/hotcake/integrations
+- https://n8n.io/integrations/hotcakeapp-com/
+- https://n8n.io/integrations/hotcakeapp/
+- https://composio.dev/toolkits/hotcakeapp-com
+- https://monid.ai/tools/hotcakeapp-com
+checked:
+- https://composio.dev/toolkits/hotcakeapp-com
+- https://monid.ai/tools/hotcakeapp-com
+- https://n8n.io/integrations/hotcakeapp-com/
+- https://n8n.io/integrations/hotcakeapp/
+- https://zapier.com/apps/hotcake/integrations
+- https://zapier.com/apps/hotcakeapp-com/integrations
+- https://zapier.com/apps/hotcakeapp/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
